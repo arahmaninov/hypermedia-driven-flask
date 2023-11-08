@@ -1,5 +1,5 @@
 from flask import (
-        Flask, redirect, render_template, request
+        Flask, redirect, render_template, request, flash
 )
 from contacts_model import Contact, Archiver
 
